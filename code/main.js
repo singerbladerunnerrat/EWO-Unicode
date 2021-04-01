@@ -12,13 +12,13 @@ function main()
 		tbody.appendChild(tr);
 		
 		var td = document.createElement("td");
-		element.innerHTML = "#x" + count1.toString(16) + "?";
+		td.innerHTML = "#x" + count1.toString(16) + "?";
 		tr.appendChild(td);
 		
 		for (var count2 = 0; count2 < 16; count2 = count2 + 1)
 		{
 			td = document.createElement("td");
-			element.innerHTML = "&#x" + count1.toString(16) + count2.toString(16) + ";";
+			td.innerHTML = "&#x" + count1.toString(16) + count2.toString(16) + ";";
 			tr.appendChild(td);
 		}
 	}
