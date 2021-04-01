@@ -1,3 +1,5 @@
+count1.toString(16)
+
 		if (!(count1 % 16))
 		{
 			var tr = document.createElement("tr");
@@ -13,4 +15,3 @@
 				tr.appendChild(td);
 			}
 		}
-		
