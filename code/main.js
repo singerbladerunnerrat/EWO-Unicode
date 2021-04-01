@@ -11,7 +11,7 @@ function main()
 			var string1 = count1.toString(16);
 			var string2 = count2.toString(16);
 			var string3 = number1.toString(16);
-			var number2 = string3.toNumber(16);
+			var number2 = parseInt(string3, 16);
 			console.log(number1 + " --> " + string1 + " + " + string2 + " = " + string3 + " --> " + number2);
 		}
 	}
