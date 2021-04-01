@@ -6,7 +6,7 @@ function main()
 	for (var count1 = parseInt("1f50", 16); count1 < parseInt("1f54", 16); count1++)
 	{
 		var tr = document.createElement("tr");
-		document.body.appendChild(tr);
+		table.appendChild(tr);
 		for (var count2 = 0; count2 < 16; count2 = count2 + 1)
 		{
 			var number1 = count1 + count2;
