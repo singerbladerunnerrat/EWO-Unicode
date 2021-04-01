@@ -1,4 +1,5 @@
-count1.toString(16)
+parseInt("2", 16)  // Convert a hexadecimal number to a decimal number.
+count1.toString(16)  // Convert a decimal number to a hexadecimal number.
 
 		if (!(count1 % 16))
 		{
