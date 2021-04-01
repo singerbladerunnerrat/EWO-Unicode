@@ -1,10 +1,12 @@
 function main()
 {
-	var element = document.createElement("table");
-	document.body.appendChild(element);
+	var table = document.createElement("table");
+	document.body.appendChild(table);
 	
-	for (var count1 = 0; count1 < 256; count1 = count1 + 16)
+	for (var count1 = parseInt("1f50", 16); count1 < parseInt("1f53", 16); count1++)
 	{
+		var tr = document.createElement("tr");
+		document.body.appendChild(tr);
 		for (var count2 = 0; count2 < 16; count2 = count2 + 1)
 		{
 			var number1 = count1 + count2;
@@ -12,7 +14,6 @@ function main()
 			var string2 = count2.toString(16);
 			var string3 = number1.toString(16);
 			var number2 = parseInt(string3, 16);
-			console.log(number1 + " --> " + string1 + " + " + string2 + " = " + string3 + " --> " + number2);
 		}
 	}
 	//console.log(window.document.body);
