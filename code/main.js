@@ -24,7 +24,7 @@ function main()
 			tr.appendChild(td);
 		}
 	}
-	console.log(window.document.body);
+	console.log(table);
 }
 
 window.addEventListener("load", main);
