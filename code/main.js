@@ -7,15 +7,15 @@ function main()
 	{
 		for (var count2 = 0; count2 < 16; count2 = count2 + 1)
 		{
-			var number = count1 + count2;
+			var number1 = count1 + count2;
 			var string1 = count1.toString(16);
 			var string2 = count2.toString(16);
 			var string3 = number.toString(16);
-			console.log(string1 + " + " + string2 + " = " + string3);
+			var number2 = string3.toNumber(16);
+			console.log(number1 + " --> " + string1 + " + " + string2 + " = " + string3 + " --> " + number2);
 		}
 	}
-	
-	console.log(window.document.body);
+	//console.log(window.document.body);
 }
 
 window.addEventListener("load", main);
