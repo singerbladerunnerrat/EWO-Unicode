@@ -22,8 +22,6 @@ function main()
 			tr.appendChild(td);
 		}
 		
-		test = "test";
-		
 		var tr = document.createElement("tr");
 		tbody.appendChild(tr);
 		
