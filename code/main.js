@@ -3,18 +3,18 @@
 function main()
 {
 	//var table = document.createElement("table");
-	var table = document.getElementById("fuckme");
-	table.setAttribute("border", "1");
-	table.setAttribute("class", "rightAligned");
-	document.body.appendChild(table);
+	var element = document.getElementById("fuckme");
+	//table.setAttribute("border", "1");
+	//table.setAttribute("class", "rightAligned");
+	//document.body.appendChild(table);
 	
-	var tbody = document.createElement("tbody");
-	table.appendChild(tbody);
-		
+	//var tbody = document.createElement("tbody");
+	//table.appendChild(tbody);
+	
 	for (var count1 = 2; count1 < 128; count1++)
 	{
 		var tr = document.createElement("tr");
-		tbody.appendChild(tr);
+		element.appendChild(tr);
 		
 		var td = document.createElement("td");
 		td.innerHTML = "#x" + count1.toString(16) + "?";
