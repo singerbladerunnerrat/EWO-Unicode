@@ -18,8 +18,14 @@ function main()
 			tbody.appendChild(tr);
 		
 			var td = document.createElement("td");
-			td.innerHTML = "#x" + count1.toString(16) + "?";
 			tr.appendChild(td);
+			
+			for (var count2 = parseInt("0", 16); count2 < parseInt("10", 16); count2++)
+			{
+				td = document.createElement("td");
+				td.innerHTML = "?" + count2.toString(16);
+				tr.appendChild(td);
+			}
 		}
 		
 		var tr = document.createElement("tr");
