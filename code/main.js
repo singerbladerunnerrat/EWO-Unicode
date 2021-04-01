@@ -17,14 +17,14 @@ function main()
 		td.innerHTML = "#x" + count1.toString(16) + "?";
 		tr.appendChild(td);
 		
-		for (var count2 = 0; count2 < 16; count2 = count2 + 1)
+		for (var count2 = parseInt("0", 16); count2 < parseInt("10", 16); count2++)
 		{
 			td = document.createElement("td");
 			td.innerHTML = "&#x" + count1.toString(16) + count2.toString(16) + ";";
 			tr.appendChild(td);
 		}
 	}
-	//console.log(window.document.body);
+	console.log(window.document.body);
 }
 
 window.addEventListener("load", main);
