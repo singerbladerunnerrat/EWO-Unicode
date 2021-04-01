@@ -3,6 +3,8 @@
 function main()
 {
 	var table = document.createElement("table");
+	table.setAttribute("border", "1");
+	//style="td{text-align:right}"
 	document.body.appendChild(table);
 	
 	var tbody = document.createElement("tbody");
