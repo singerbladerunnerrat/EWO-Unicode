@@ -10,7 +10,7 @@ function main()
 	var tbody = document.createElement("tbody");
 	table.appendChild(tbody);
 		
-	for (var count1 = 32; count1 < 64; count1++)
+	for (var count1 = 2; count1 < 128; count1++)
 	{
 		var tr = document.createElement("tr");
 		tbody.appendChild(tr);
