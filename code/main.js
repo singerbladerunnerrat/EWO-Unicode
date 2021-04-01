@@ -5,8 +5,15 @@ function main()
 	
 	for (var count1 = parseInt("1f50", 16); count1 < parseInt("1f54", 16); count1++)
 	{
+		var tbody = document.createElement("tbody");
+		table.appendChild(tbody);
+		
 		var tr = document.createElement("tr");
-		table.appendChild(tr);
+		tbody.appendChild(tr);
+		
+		var td = document.createElement("td");
+		tr.appendChild(td);
+		
 		for (var count2 = 0; count2 < 16; count2 = count2 + 1)
 		{
 			var number1 = count1 + count2;
