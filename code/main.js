@@ -1,13 +1,15 @@
+"use strict";
+
 function main()
 {
 	var table = document.createElement("table");
 	document.body.appendChild(table);
 	
+	var tbody = document.createElement("tbody");
+	table.appendChild(tbody);
+		
 	for (var count1 = parseInt("1f50", 16); count1 < parseInt("1f54", 16); count1++)
 	{
-		var tbody = document.createElement("tbody");
-		table.appendChild(tbody);
-		
 		var tr = document.createElement("tr");
 		tbody.appendChild(tr);
 		
