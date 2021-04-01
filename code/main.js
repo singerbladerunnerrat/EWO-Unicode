@@ -12,7 +12,7 @@ function main()
 		
 	for (var count1 = parseInt("1f50", 16); count1 < parseInt("1f54", 16); count1++)
 	{
-		if (count1 % 16)
+		if (!(count1 % 16))
 		{
 			var tr = document.createElement("tr");
 			tbody.appendChild(tr);
