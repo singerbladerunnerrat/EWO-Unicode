@@ -2,7 +2,8 @@
 
 function main()
 {
-	var table = document.createElement("table");
+	//var table = document.createElement("table");
+	var table = document.getElementById("fuckme");
 	table.setAttribute("border", "1");
 	table.setAttribute("class", "rightAligned");
 	document.body.appendChild(table);
