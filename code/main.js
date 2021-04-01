@@ -11,7 +11,7 @@ function main()
 	//var tbody = document.createElement("tbody");
 	//table.appendChild(tbody);
 	
-	for (var count1 = parseInt("2", 16); count1 < parseInt("100", 16); count1++)
+	for (var count1 = parseInt("2", 16); count1 < 128; count1++)
 	{
 		var tr = document.createElement("tr");
 		element.appendChild(tr);
@@ -20,7 +20,7 @@ function main()
 		td.innerHTML = "#x" + count1.toString(16) + "?";
 		tr.appendChild(td);
 		
-		for (var count2 = 0; count2 < 16; count2++)
+		for (var count2 = parseInt("0", 16); count2 < parseInt("10", 16); count2++)
 		{
 			td = document.createElement("td");
 			td.innerHTML = "&#x" + count1.toString(16) + count2.toString(16) + ";";
