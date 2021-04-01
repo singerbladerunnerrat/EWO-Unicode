@@ -10,7 +10,7 @@ function main()
 	var tbody = document.createElement("tbody");
 	table.appendChild(tbody);
 		
-	for (var count1 = parseInt("2", 16); count1 < parseInt("fffffff", 16); count1++)
+	for (var count1 = parseInt("2", 16); count1 < parseInt("1f5f", 16); count1++)
 	{
 		if (!(count1 % 16))
 		{
