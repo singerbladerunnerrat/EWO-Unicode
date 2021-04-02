@@ -5,3 +5,25 @@ https://en.wikipedia.org/wiki/ASCII#/media/File:USASCII_code_chart.png
 https://www.w3schools.com/tags/att_meta_charset.asp
 https://www.w3.org/International/questions/qa-changing-encoding
 https://validator.w3.org/i18n-checker/
+
+		<a target=”_blank” href="https://validator.w3.org/i18n-checker/check?uri=https%3A%2F%2Fsingerbladerunnerrat.github.io%2FUnicode%2FUTF-8.html#validate-by-uri+">Validate</a><br>
+		<br>
+		
+parseInt("2", 16)  // Convert a hexadecimal number to a decimal number.
+count1.toString(16)  // Convert a decimal number to a hexadecimal number.
+
+		if (!(count1 % 16))
+		{
+			var tr = document.createElement("tr");
+			tbody.appendChild(tr);
+		
+			var td = document.createElement("td");
+			tr.appendChild(td);
+			
+			for (var count3 = 0; count3 < 16; count3++)
+			{
+				td = document.createElement("td");
+				td.innerHTML = "?" + count3.toString(16);
+				tr.appendChild(td);
+			}
+		}
