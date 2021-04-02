@@ -2,9 +2,9 @@
 
 function main()
 {
-	var element = document.getElementById("fuckme");
+	var element = document.getElementById("myTable");
 	
-	for (var count1 = parseInt("0", 16); count1 < parseInt("8", 16); count1++)
+	for (var count1 = parseInt("0", 16); count1 < parseInt("10", 16); count1++)
 	{
 		if (!(count1 % 16))
 		{
