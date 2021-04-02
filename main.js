@@ -9,6 +9,7 @@ function main()
 		if (!(count1 % 16))
 		{
 			var tr = document.createElement("tr");
+			td.setAttribute("bgcolor", "green");
 			element.appendChild(tr);
 			
 			var td = document.createElement("td");
