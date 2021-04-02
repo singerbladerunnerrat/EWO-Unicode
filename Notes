@@ -6,6 +6,15 @@ https://www.w3schools.com/tags/att_meta_charset.asp
 https://www.w3.org/International/questions/qa-changing-encoding
 https://validator.w3.org/i18n-checker/
 
+		<table><tbody>
+			<tr><td>Key:</td></tr>
+			<tr>
+				<td></td>
+				<td><table border="1"><tbody><tr><td bgcolor="red" width="20" height="20"></td></tr></tbody></table></td>
+				<td>Invalid Unicode</td>
+			</tr>
+		</tbody></table>
+
 	//var table = document.createElement("table");
 
 	//table.setAttribute("border", "1");
