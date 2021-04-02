@@ -49,14 +49,16 @@ function main()
 		{
 			td = document.createElement("td");
 			console.log(count1.toString(16) + count2.toString(16));
-			switch(count1.toString(16) + count2.toString(16))
+			switch(parseInt(count1.toString(16) + count2.toString(16), 16))
 			{
-				case "0":
+				case 0:
+				case 1:
 					td.setAttribute("color", "red");
 					//td.innerHTML = "&#x" + count1.toString(16) + count2.toString(16) + ";";
 					break;
 				default:
 					td.innerHTML = "&#x" + count1.toString(16) + count2.toString(16) + ";";
+					break;
 			}
 			tr.appendChild(td);
 		}
