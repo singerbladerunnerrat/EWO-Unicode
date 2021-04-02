@@ -33,7 +33,14 @@ function main()
 		element.appendChild(tr);
 		
 		var td = document.createElement("td");
-		td.innerHTML = "#x" + count1.toString(16) + "?";
+		
+		var hexadecimal = count1.toString(16);
+		if (hexadecimal === "0")
+		{
+			hexadecimal = "";
+		}
+		
+		td.innerHTML = "#x" + hexadecimal + "?";
 		tr.appendChild(td);
 		
 		for (var count2 = parseInt("0", 16); count2 < parseInt("10", 16); count2++)
