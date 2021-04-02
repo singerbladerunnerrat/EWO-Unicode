@@ -6,6 +6,15 @@ https://www.w3schools.com/tags/att_meta_charset.asp
 https://www.w3.org/International/questions/qa-changing-encoding
 https://validator.w3.org/i18n-checker/
 
+	//var table = document.createElement("table");
+
+	//table.setAttribute("border", "1");
+	//table.setAttribute("class", "rightAligned");
+	//document.body.appendChild(table);
+	
+	//var tbody = document.createElement("tbody");
+	//table.appendChild(tbody);
+
 		<a target=”_blank” href="https://validator.w3.org/i18n-checker/check?uri=https%3A%2F%2Fsingerbladerunnerrat.github.io%2FUnicode%2FUTF-8.html#validate-by-uri+">Validate</a><br>
 		<br>
 		
