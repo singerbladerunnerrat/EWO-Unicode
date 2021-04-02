@@ -2,14 +2,7 @@
 
 function main()
 {
-	//var table = document.createElement("table");
 	var element = document.getElementById("fuckme");
-	//table.setAttribute("border", "1");
-	//table.setAttribute("class", "rightAligned");
-	//document.body.appendChild(table);
-	
-	//var tbody = document.createElement("tbody");
-	//table.appendChild(tbody);
 	
 	for (var count1 = parseInt("0", 16); count1 < parseInt("8", 16); count1++)
 	{
