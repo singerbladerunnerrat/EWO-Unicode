@@ -34,19 +34,29 @@ function main()
 		
 		var td = document.createElement("td");
 		
-		var hexadecimal = count1.toString(16);
-		if (hexadecimal === "0")
+		switch(count1)
 		{
-			hexadecimal = "";
+			case 0:
+				td.innerHTML = "#x?";
+				break;
+			default:
+				td.innerHTML = "#x" + count1.toString(16) + "?";
 		}
-		
-		td.innerHTML = "#x" + hexadecimal + "?";
 		tr.appendChild(td);
+		
 		
 		for (var count2 = parseInt("0", 16); count2 < parseInt("10", 16); count2++)
 		{
 			td = document.createElement("td");
-			td.innerHTML = "&#x" + count1.toString(16) + count2.toString(16) + ";";
+			switch(count1.toString(16) + count2.toString(16))
+			{
+				case x:
+					td.setAttribute("color", "red");
+					//td.innerHTML = "&#x" + count1.toString(16) + count2.toString(16) + ";";
+					break;
+				default:
+					td.innerHTML = "&#x" + count1.toString(16) + count2.toString(16) + ";";
+			}
 			tr.appendChild(td);
 		}
 	}
