@@ -48,7 +48,6 @@ function main()
 		for (var count2 = parseInt("0", 16); count2 < parseInt("10", 16); count2++)
 		{
 			td = document.createElement("td");
-			console.log(count1.toString(16) + count2.toString(16));
 			switch(parseInt(count1.toString(16) + count2.toString(16), 16))
 			{
 				case  0:
