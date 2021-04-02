@@ -50,7 +50,7 @@ function main()
 			td = document.createElement("td");
 			switch(count1.toString(16) + count2.toString(16))
 			{
-				case x:
+				case "0", "1", "2", "3", "4", "5", "6", "7", "8", "b", "c", "e", "f", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "1a", "1b", "1c", "1d", "1e":
 					td.setAttribute("color", "red");
 					//td.innerHTML = "&#x" + count1.toString(16) + count2.toString(16) + ";";
 					break;
