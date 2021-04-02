@@ -15,9 +15,6 @@ https://validator.w3.org/i18n-checker/
 	//var tbody = document.createElement("tbody");
 	//table.appendChild(tbody);
 
-		<a target=”_blank” href="https://validator.w3.org/i18n-checker/check?uri=https%3A%2F%2Fsingerbladerunnerrat.github.io%2FUnicode%2FUTF-8.html#validate-by-uri+">Validate</a><br>
-		<br>
-		
 parseInt("2", 16)  // Convert a hexadecimal number to a decimal number.
 count1.toString(16)  // Convert a decimal number to a hexadecimal number.
 
