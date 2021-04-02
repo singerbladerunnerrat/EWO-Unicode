@@ -11,8 +11,24 @@ function main()
 	//var tbody = document.createElement("tbody");
 	//table.appendChild(tbody);
 	
-	for (var count1 = parseInt("2", 16); count1 < 128; count1++)
+	for (var count1 = parseInt("2", 16); count1 < parseInt("80", 16); count1++)
 	{
+		if (!(count1 % 16))
+		{
+			var tr = document.createElement("tr");
+			element.appendChild(tr);
+			
+			var td = document.createElement("td");
+			tr.appendChild(td);
+			
+			for (var count3 = parseInt("0", 16); count3 < parseInt("10", 16); count3++)
+			{
+				td = document.createElement("td");
+				td.innerHTML = "?" + count3.toString(16);
+				tr.appendChild(td);
+			}
+		}
+		
 		var tr = document.createElement("tr");
 		element.appendChild(tr);
 		
