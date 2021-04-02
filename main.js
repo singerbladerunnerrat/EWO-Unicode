@@ -9,7 +9,7 @@ function main()
 		if (!(count1 % 16))
 		{
 			var tr = document.createElement("tr");
-			tr.setAttribute("bgcolor", "green");
+			tr.setAttribute("bgcolor", "#00ff00");
 			element.appendChild(tr);
 			
 			var td = document.createElement("td");
@@ -72,7 +72,7 @@ function main()
 				case 28:
 				case 29:
 				case 30:
-					td.setAttribute("bgcolor", "red");
+					td.setAttribute("bgcolor", "#ff0000");
 					break;
 				default:
 					td.innerHTML = "&#x" + count1.toString(16) + count2.toString(16) + ";";
